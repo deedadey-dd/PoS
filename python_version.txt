@@ -1,0 +1,13 @@
+Python Version: 3.11.3
+
+This project's virtual environment is configured to use Python 3.11.3.
+Django 5.0 supports Python 3.10, 3.11, 3.12, and 3.13.
+
+To recreate the virtual environment with a different Python version, use:
+  .\create_venv.ps1 3.12  (for Python 3.12)
+  .\create_venv.ps1 3.13  (for Python 3.13)
+
+Or manually:
+  python -m venv .venv  (uses default Python)
+  py -3.12 -m venv .venv  (for Python 3.12)
+
